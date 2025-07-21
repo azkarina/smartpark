@@ -55,6 +55,7 @@ img {
   z-index: 2; 
 }
 
+
 .section-heading h4 {
   color: #2a2a2a; font-size: 30px; font-weight: 700;
   text-transform: capitalize; margin-bottom: 10px;
@@ -67,37 +68,33 @@ img {
 /* Button Styles */
 /* Menggunakan .main-button untuk Demo dan Subscribe */
 .main-button {
-  display: inline-block !important;
-  padding: 10px 20px !important;
-  color: #fff !important; /* Warna teks putih */
-  background-color: #4b8ef1; /* Warna biru Solid */
+  display: inline-block ;
+  padding: 10px 20px ;
+  color: #fff ; /* Warna teks putih */
+  background-color: #0061f1; /* Warna biru Solid */
   border: 1px solid #4b8ef1; /* Border senada dengan background */
   text-transform: capitalize;
   font-size: 15px;
   border-radius: 23px;
-  font-weight: 500 !important;
-  letter-spacing: 0.3px !important;
+  font-weight: 500 ;
+  letter-spacing: 0.3px ;
   transition: all .5s;
   cursor: pointer;
 }
 
-.main-button i { /* Untuk icon di dalam button (Subscribe Now) */
-    margin-left: 5px;
-    font-size: 18px; /* Sesuaikan ukuran icon jika perlu */
-}
-
 .main-button:hover {
-  background-color: #3a75c1; /* Warna yang sedikit lebih gelap saat hover */
-  border-color: #3a75c1; /* Border juga berubah saat hover */
-  color: #fff !important;
+  background-color: #e1e2e3;
+  color: #050044;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(148, 161, 174, 0.3);
 }
 
 /* Header */
 .background-header {
-  background-color: #fff !important;
-  height: 80px !important;
-  border-bottom: none !important;
-  position: fixed !important;
+  background-color: #fff ;
+  height: 80px ;
+  border-bottom: none ;
+  position: fixed ;
   top: 0;
   left: 0;
   right: 0;
@@ -124,7 +121,7 @@ img {
 .header-area .main-nav .logo { float: left; transition: all 0.3s ease 0s; line-height: 100px; }
 .background-header .main-nav .logo { line-height: 80px; }
 
-.background-header .main-nav .nav { margin-top: 20px !important; }
+.background-header .main-nav .nav { margin-top: 20px ; }
 .header-area .main-nav .nav {
   float: right; margin-top: 30px; margin-right: 0; background-color: transparent;
   transition: all 0.3s ease 0s; position: relative; z-index: 999;
@@ -136,7 +133,7 @@ img {
   border: transparent; letter-spacing: 1px;
 }
 .header-area .main-nav .nav li:hover a,
-.header-area .main-nav .nav li a.active { color: #4b8ef1 !important; }
+.header-area .main-nav .nav li a.active { color: #4b8ef1 ; }
 
 /* Hamburger Menu Icon (Menu Trigger) */
 .header-area .main-nav .menu-trigger {
@@ -284,7 +281,7 @@ footer p a:hover { opacity: 0.75; color: #fff; }
   .main-banner:after, .about-us:after { display: none; }
   .main-banner .left-content h2 { color: #2a2a2a; margin-right: 0; }
   .main-banner .left-content p { color: #afafaf; margin-right: 0; }
-  .main-banner .left-content .main-button { background-color: #4b8ef1; color: #fff !important; }
+  .main-banner .left-content .main-button { background-color: #4b8ef1; color: #fff ; }
   .main-banner .left-content { margin-right: 0; }
   .main-banner { text-align: center; padding: 226px 0 30px 0; }
   .main-banner .right-image { margin: 30px auto 0 auto; text-align: center; }
@@ -296,10 +293,10 @@ footer p a:hover { opacity: 0.75; color: #fff; }
 }
 
 @media (max-width: 767px) {
-  .header-area.header-sticky .main-nav .nav { margin-top: 80px !important; }
+  .header-area.header-sticky .main-nav .nav { margin-top: 80px ; }
   .header-area .main-nav .logo { color: #1e1e1e; }
   .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active { color: #4b8ef1 !important; opacity: 1; }
+  .header-area.header-sticky .nav li a.active { color: #4b8ef1 ; opacity: 1; }
   .header-area {
     background-color: #fff; /* Pada mobile, navbar selalu putih */
     padding: 0 15px; height: 100px; box-shadow: none; text-align: center;
@@ -307,7 +304,7 @@ footer p a:hover { opacity: 0.75; color: #fff; }
   }
   .header-area .container { padding: 0; }
   .header-area .logo { margin-left: 30px; }
-  .header-area .menu-trigger { display: block !important; }
+  .header-area .menu-trigger { display: block ; }
   .header-area .main-nav { overflow: hidden; }
   .header-area .main-nav .nav {
     float: none; width: 100%; display: none;
@@ -316,14 +313,14 @@ footer p a:hover { opacity: 0.75; color: #fff; }
   .header-area.header-sticky .nav { margin-top: 100px; }
   .header-area .main-nav .nav li {
     width: 100%; background: #fff; border-bottom: 1px solid #e7e7e7;
-    padding: 0 !important;
+    padding: 0 ;
   }
   .header-area .main-nav .nav li:first-child { border-top: 1px solid #eee; }
   .header-area .main-nav .nav li a {
-    height: 50px !important; line-height: 50px !important; padding: 0 !important;
-    border: none !important; background: #f7f7f7 !important; color: #191a20 !important;
+    height: 50px ; line-height: 50px ; padding: 0 ;
+    border: none ; background: #f7f7f7 ; color: #191a20 ;
   }
-  .header-area .main-nav .nav li a:hover { background: #eee !important; color: #4b8ef1 !important; }
+  .header-area .main-nav .nav li a:hover { background: #eee ; color: #4b8ef1 ; }
 
   footer #search input {
     border: 1px solid #eee; color: #afafaf; background-color: #fff; border-radius: 23px;
@@ -344,5 +341,5 @@ footer p a:hover { opacity: 0.75; color: #fff; }
 }
 
 @media (min-width: 767px) {
-  .header-area .main-nav .nav { display: flex !important; }
+  .header-area .main-nav .nav { display: flex ; }
 }
